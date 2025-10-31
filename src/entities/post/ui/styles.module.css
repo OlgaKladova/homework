@@ -1,0 +1,20 @@
+.card {
+    border: 1px solid var(--primary-color);
+    padding: 20px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+}

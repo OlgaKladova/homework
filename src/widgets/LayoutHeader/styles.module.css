@@ -1,0 +1,6 @@
+.header {
+    background-color: var(--bg-header-footer-color);
+    color: #fff;
+    padding: 20px 80px;
+    text-align: center;
+}
