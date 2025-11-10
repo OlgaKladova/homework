@@ -1,6 +1,7 @@
 import { MainLayout } from '@/shared/index'
 import './index.css'
 import { PostList } from '@/widgets/PostList/PostList'
+import { ThemeProvider } from '@/shared/lib/theme/ThemeProvider'
 
 function App() {
   const mockPosts = [
@@ -26,9 +27,11 @@ function App() {
 
   return (
     <>
-      <MainLayout>
-        <PostList posts={mockPosts} />
-      </MainLayout>
+      <ThemeProvider>
+        <MainLayout>
+          <PostList posts={mockPosts} />
+        </MainLayout>
+      </ThemeProvider>
     </>
   )
 }

@@ -1,0 +1,19 @@
+.button {
+    padding: 10px 20px;
+    background-color: var(--bg-button-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+.button:focus-visible {
+    outline: none;
+    background-color: var(--bg-button-hover-color);
+}
+
+.button:active {
+    background-color: var(--bg-button-active-color);
+}
